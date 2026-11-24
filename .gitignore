@@ -1,0 +1,48 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------- Data: raw audio is never committed ----------
+data/raw/
+data/processed/
+*.wav
+*.mp3
+*.flac
+
+# Feature matrices are large and fully regenerable from stage 1.
+# If you want them versioned, use Git LFS instead of removing this line.
+data/processed/*.csv
+
+# ---------- Model artifacts ----------
+checkpoints/
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# ---------- Secrets / environment ----------
+.env
+.env.*
+*.token
+client_secrets.json
+kaggle.json
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---------- Logs ----------
+*.log
+runs/

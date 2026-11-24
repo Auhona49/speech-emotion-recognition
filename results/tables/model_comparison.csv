@@ -1,0 +1,3 @@
+model,features,corpus,seed,accuracy,macro_f1,weighted_f1
+cnn,zcr+rmse+mfcc,ravdess+tess+crema-d,42,,,
+cnn_bilstm,zcr+rmse+mfcc,ravdess+tess+crema-d,42,0.978,,

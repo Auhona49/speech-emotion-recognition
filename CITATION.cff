@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper."
+title: "Emotion Recognition from Speech Audio Signals using CNN-BiLSTM Hybrid Model"
+type: software
+authors:
+  - family-names: Islam
+    given-names: Auhona
+    email: islamauhona@gmail.com
+    affiliation: "Khulna University of Engineering and Technology"
+    # orcid: "https://orcid.org/..."    # FILL if you have one
+  - family-names: Foysal
+    given-names: Md. Ferdouse Ahmed
+    affiliation: "Khulna University of Engineering and Technology"
+  - family-names: Ahmed
+    given-names: Md. Imteaz
+    affiliation: "Khulna University of Engineering and Technology"
+repository-code: "https://github.com/<USERNAME>/speech-emotion-recognition"
+license: MIT
+keywords:
+  - speech emotion recognition
+  - CNN-BiLSTM
+  - deep learning
+  - MFCC
+preferred-citation:
+  type: conference-paper
+  title: "Emotion Recognition from Speech Audio Signals using CNN-BiLSTM Hybrid Model"
+  authors:
+    - family-names: Islam
+      given-names: Auhona
+    - family-names: Foysal
+      given-names: Md. Ferdouse Ahmed
+    - family-names: Ahmed
+      given-names: Md. Imteaz
+  collection-title: "2024 3rd International Conference on Advancement in Electrical and Electronic Engineering (ICAEEE)"
+  publisher:
+    name: IEEE
+  year: 2024
+  start: 1
+  end: 6
+  doi: "10.1109/ICAEEE62219.2024.10561755"
+  url: "https://doi.org/10.1109/ICAEEE62219.2024.10561755"
